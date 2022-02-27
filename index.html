@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Professional Engineering Consultancy</title>
+    </head>
+    <body>
+        <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108935428288649");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="hseCvEyY"></script>
+
+        
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="https://www.facebook.com/Vikash00998" class="nav__logo">Vikash</a>
+                <img class="h-8 w-8 rounded-full" src="./assets/img/v.jpg">
+
+               
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Professional Engineering Consultancy</h1>
+                        <h2 class="home__subtitle">A complete Civil Engineering<br>Solutions & more</h2>
+                        <a href="./menu.html" class="button">Contact Now</a>
+                    </div>
+    
+                    <img src="./assets/img/Professional ENGINEERING CONSULTANCY (1).png" alt="PEC" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">We provide <br></h2>
+                        <p class="about__description">design, drawing, estimation, valuation,supervision & all the solution of the building.<br>We have the team of professionals to provide you quality service at affordable price.</p>
+                        <a href="https://www.facebook.com/Professionalengineering999" class="button">Request Service</a>
+                    </div>
+
+                    <img src="./assets/img/STEM_Careers_Civil_Engineering-scaled.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Offering</span>
+                <h2 class="section-title">Our amazing services</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img src="./assets/img/consulting.svg" width="100">
+                        
+                        <h3 class="services__title">Consulting</h3>
+                        <p class="services__description">We offer our customers excellent quality ideas for their dream building with the best manpower.</p>
+                    </div>
+
+                    <div class="services__content">
+                       <img src="./assets/img/pros.svg" width="100">
+                        <h3 class="services__title">professionals</h3>
+                        <p class="services__description">We have a team of certified, experienced and highly skilled professional Engineers.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="./assets/img/affordable.svg" width="100">
+                        <h3 class="services__title">affordable</h3>
+                        <p class="services__description">We value your money, We help you build the buildings of your dream. We value your hardship. </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">Why choose Us?</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="./assets/img/en1.svg" alt="" class="menu__img">
+                        <h3 class="menu__name">Architectural Drawings,Structural Analysis & 3D Modeling</h3>
+                        
+                    
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="./assets/img/plan.svg" alt="" class="menu__img">
+                        <h3 class="menu__name">	Detail Project Report, Master plan, Estimate & BOQ</h3>
+                        
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="./assets/img/property.svg" alt="" class="menu__img">
+                        <h3 class="menu__name">	
+                            Property Valuation</h3>
+                        
+                    </div>
+                    <div class="menu__content">
+                        <img src="./assets/img/survey.svg" alt="" class="menu__img">
+                        <h3 class="menu__name">	
+                            Surveying & Supervision</h3>
+                        
+                    </div>
+                    <div class="menu__content">
+                        <img src="./assets/img/civil.svg" alt="" class="menu__img">
+                        <h3 class="menu__name">	
+                            Civil Work, Materials,PPMO ID & Tender E-bidding</h3>
+                    </div>
+                    <div class="menu__content">
+                        <img src="./assets/img/consult.svg" alt="" class="menu__img">
+                        <h3 class="menu__name">	
+                            Free Consulting Service</h3>
+                        
+                    </div>
+                    <div class="menu__content">
+                        <img src="./assets/img/course.svg" alt="" class="menu__img">
+                        <h3 class="menu__name">	
+                            Auto CAD Training & Civil Engineering Courses</h3>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Review =======-->
+            <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">Availability</span>
+                        <h2 class="section-title app__initial">We are available 24/7 for our customers.</h2>
+                        <p class="app__description">Contact us: professionalengineering824@gmail.com <br> OR  our page :</p>
+                        <div class="app__stores">
+                            <a href="https://www.facebook.com/Professionalengineering999"><img src="./assets/img/facebook.svg" width="60" alt="facebook"></a>
+                            &nbsp;  &nbsp;  &nbsp;
+                            <img src="./assets/img/whatsapp.svg" width="60" alt="whatsapp">982-9333445</a>
+                            
+                        </div>
+                    </div>
+
+                    <!--<img src="put fb page screenshot" alt="" class="app__img">-->
+                    <div class="fb-page" data-href="https://www.facebook.com/Professionalengineering999" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Professionalengineering999" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Professionalengineering999">PEC</a></blockquote></div>
+                </div>
+                
+            </section>
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Trusted</span>
+                        <h2 class="section-title contact__initial">Our team carries the trust, experience and professionalism</h2>
+                        <p class="contact__description">Visit Us at Itahari-6,Sunsari.</p>
+                        </div>
+  
+                    <div class="contact__button">
+                </div>
+                </div>
+                </div>
+                        <a href="https://www.facebook.com/Professionalengineering999" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <br><br><br>
+        <img src="./assets/img/c3.jpg" alt=""class="about__img"style="width: 70%; position:relative; left: 15%;">
+                        <img src="./assets/img/istockphoto-1189063296-612x612.jpg" alt="" class="about__img" style="width: 70%; height:20%; position:relative; left: 15%;">
+                        <img src="./assets/img/c1.jpg" alt=""class="about__img" style="width: 70%; position:relative; left: 15%;">
+                        <img src="./assets/img/c2.jpg" class="about__img"style="width: 70%; position:relative; left: 15%;">
+
+                        
+
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Professional Engineering Consultancy</a>
+                    <span class="footer__description">Construction/Consulting Agency</span>
+                    <div>
+                        <a href="https://www.facebook.com/Professionalengineering999" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/Professionalengineering999" class="footer__link">Construction</a></li>
+                
+                        <li><a href="https://www.facebook.com/Professionalengineering999" class="footer__link">Consultancy</a></li>
+                        <li><a href="https://www.facebook.com/Professionalengineering999" class="footer__link">Supervision</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        
+                        <li><a href="https://www.facebook.com/Professionalengineering999" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul>
+                        <li>Itahari-6,Sunsari,Nepal</li>
+                        <li>Professional Engineering Consultancy</li>
+                        <li>+977 982-9333445</li>
+                        <li>professionalengineering824@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 PEC. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/flexslider/jquery.flexslider.js"></script>
+    </body>
+</html>
